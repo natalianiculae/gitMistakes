@@ -1,4 +1,3 @@
-
 // main.c
 #include <stdio.h>
 
@@ -11,6 +10,5 @@ int main() {
     fgets(name, sizeof(name), stdin);
 
     printf("Hello, %s", name);
-    printf("Welcome to the program!\n");
     return 0;
 }
