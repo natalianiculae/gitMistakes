@@ -10,5 +10,6 @@ int main() {
     fgets(name, sizeof(name), stdin);
 
     printf("Hello, %s", name);
+    addColor(255, 0, 0); // Example function call to add color (assuming this function is defined elsewhere)
     return 0;
 }
